@@ -17,17 +17,17 @@ void loop() {
   digitalWrite(led1, HIGH);
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
-  delay(30000);  // Tunggu 3 detik
+  delay(30000); 
 
   // Nyalakan LED 2, matikan yang lain
   digitalWrite(led1, LOW);
   digitalWrite(led2, HIGH);
   digitalWrite(led3, LOW);
-  delay(3000);  // Tunggu 3 detik
+  delay(3000);  
 
   // Nyalakan LED 3, matikan yang lain
   digitalWrite(led1, LOW);
   digitalWrite(led2, LOW);
   digitalWrite(led3, HIGH);
-  delay(15000);  // Tunggu 3 detik
+  delay(15000); 
 }
